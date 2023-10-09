@@ -1,7 +1,9 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+
 public class Main {
     public static void main(String[] args) {
-
+        Cliente cliente1 = new Cliente("Cliente 1",
+                new int[]{2,2,1,4,2,3});
+        Cliente cliente2 = new Cliente("Cliente 2",
+                new int[]{1,2,5,1,1});
     }
 }
